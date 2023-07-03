@@ -1,4 +1,4 @@
-package com.prasad.customer.Ser;
+package com.example.customer.Ser;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
@@ -17,13 +17,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
-import com.prasad.customer.Dto.ProductDto;
-import com.prasad.customer.Entity.Customer;
-import com.prasad.customer.Exception.CustomerIdNotFoundException;
-import com.prasad.customer.Exception.CustomerNotFoundException;
-import com.prasad.customer.Exception.ProductNotFoundException;
-import com.prasad.customer.Repository.ICustomerRepostiory;
-import com.prasad.customer.Service.CustomerServiceImpl;
+import com.example.customer.Dto.ProductDto;
+import com.example.customer.Entity.Customer;
+import com.example.customer.Exception.CustomerIdNotFoundException;
+import com.example.customer.Exception.CustomerNotFoundException;
+import com.example.customer.Exception.ProductNotFoundException;
+import com.example.customer.Repository.ICustomerRepostiory;
+import com.example.customer.Service.CustomerServiceImpl;
 
 @SpringBootTest
 public class CustomerServiceImplTest {

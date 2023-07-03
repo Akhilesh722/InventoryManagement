@@ -1,4 +1,4 @@
-package com.prasad.customer.Exception;
+package com.example.customer.Exception;
 
 @SuppressWarnings("serial")
 public class ProductNotFoundException extends RuntimeException {

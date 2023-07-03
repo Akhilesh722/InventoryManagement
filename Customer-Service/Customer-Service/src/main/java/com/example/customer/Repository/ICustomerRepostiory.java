@@ -1,11 +1,11 @@
-package com.prasad.customer.Repository;
+package com.example.customer.Repository;
 
 import java.util.Optional;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.prasad.customer.Entity.Customer;
+import com.example.customer.Entity.Customer;
 
 @Repository
 public interface ICustomerRepostiory extends CrudRepository<Customer, Integer> {

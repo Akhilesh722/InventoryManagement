@@ -1,4 +1,4 @@
-package com.prasad.customer.Service;
+package com.example.customer.Service;
 
 import java.util.Arrays;
 import java.util.List;
@@ -11,14 +11,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
-import com.prasad.customer.Dto.ProductDto;
-import com.prasad.customer.Entity.Customer;
-
-import com.prasad.customer.Exception.CustomerNotFoundException;
-import com.prasad.customer.Exception.ProductNotFoundException;
-//import com.prasad.customer.Exceptions.ProductNotFoundException;
-import com.prasad.customer.Repository.ICustomerRepostiory;
-import com.prasad.customer.Exception.CustomerIdNotFoundException;
+import com.example.customer.Dto.ProductDto;
+import com.example.customer.Entity.Customer;
+import com.example.customer.Exception.CustomerIdNotFoundException;
+import com.example.customer.Exception.CustomerNotFoundException;
+import com.example.customer.Exception.ProductNotFoundException;
+import com.example.customer.Repository.ICustomerRepostiory;
 
 @Service
 public class CustomerServiceImpl implements ICustomerService {

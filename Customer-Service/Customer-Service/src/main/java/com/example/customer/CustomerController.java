@@ -1,4 +1,4 @@
-package com.prasad.customer;
+package com.example.customer;
 
 import java.util.List;
 
@@ -14,11 +14,10 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.prasad.customer.Dto.ProductDto;
-import com.prasad.customer.Entity.Customer;
-import com.prasad.customer.Exception.ProductNotFoundException;
-//import com.prasad.customer.Exceptions.ProductNotFoundException;
-import com.prasad.customer.Service.ICustomerService;
+import com.example.customer.Dto.ProductDto;
+import com.example.customer.Entity.Customer;
+import com.example.customer.Exception.ProductNotFoundException;
+import com.example.customer.Service.ICustomerService;
 
 @RestController
 @CrossOrigin("http://localhost:3000")

@@ -1,4 +1,4 @@
-package com.prasad.customer.Dto;
+package com.example.customer.Dto;
 
 public class ProductDto {
 	private int productId;

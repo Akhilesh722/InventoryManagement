@@ -1,12 +1,11 @@
-package com.prasad.customer.Service;
+package com.example.customer.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.prasad.customer.Dto.ProductDto;
-import com.prasad.customer.Entity.Customer;
-//import com.prasad.customer.Exceptions.ProductNotFoundException;
-import com.prasad.customer.Exception.ProductNotFoundException;
+import com.example.customer.Dto.ProductDto;
+import com.example.customer.Entity.Customer;
+import com.example.customer.Exception.ProductNotFoundException;
 
 
 
